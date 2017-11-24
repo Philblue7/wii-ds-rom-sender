@@ -1233,7 +1233,7 @@ int main()
 		wdGameInfo[0x2DE] = 0x34;
 		//Max Players Allowed
 		wdGameInfo[0x2EA] = 1;
-		//Game Name: NDS File
+		//Game Name: Wii DS Rom Sender
 		wdGameInfo[0x2EC] = 0x4E;
 		wdGameInfo[0x2EE] = 0x44;
 		wdGameInfo[0x2F0] = 0x53;
@@ -1242,7 +1242,7 @@ int main()
 		wdGameInfo[0x2F6] = 0x69;
 		wdGameInfo[0x2F8] = 0x6C;
 		wdGameInfo[0x2FA] = 0x65;
-		//Description: Hi.
+		//Description: Until the RiiConnect24 Nintendo Channel gets released, play this!
 		wdGameInfo[0x36A] = 0x48;
 		wdGameInfo[0x36C] = 0x69;
 		wdGameInfo[0x36E] = 0x2E;
