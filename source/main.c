@@ -697,7 +697,7 @@ static void printmain()
 {
 	printf("\x1b[2J");
 	printf("\x1b[37m");
-	printf("Wii DS ROM Sender v3.3 by FIX94\n");
+	printf("Wii DS ROM Sender v3.4 by Philblue7 (Credit to FIX94)\n");
 	printf("HaxxStation by shutterbug2000, Gericom, and Apache Thunder\n\n");
 }
 
@@ -715,7 +715,7 @@ static void printstatus()
 		switch(wd_state)
 		{
 			case WD_STATE_DSWAIT:
-				printf("Waiting for DS to connect, Press any Button to go back into ROM Selection\n");
+				printf("Waiting for a Nintendo DS to connect, Press any Button to go back into ROM Selection\n");
 				break;
 			case WD_STATE_GETNAME:
 				printf("DS Connected!\n");
@@ -1232,7 +1232,7 @@ int main()
 		wdGameInfo[0x2DC] = 0x39;
 		wdGameInfo[0x2DE] = 0x34;
 		//Max Players Allowed
-		wdGameInfo[0x2EA] = 1;
+		wdGameInfo[0x2EA] = 16;
 		//Game Name: Wii DS Rom Sender
 		wdGameInfo[0x2EC] = 0x4E;
 		wdGameInfo[0x2EE] = 0x44;
